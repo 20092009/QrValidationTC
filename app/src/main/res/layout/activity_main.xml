@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <SurfaceView
+        android:layout_width="400dp"
+        android:layout_height="480px"
+        android:id="@+id/camera_view"/>
+
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/resultimage"
+        android:layout_below="@+id/camera_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp" />
+
+
+    <TextView
+      android:layout_width="1dp"
+      android:layout_height="1dp"
+      android:layout_alignParentTop="true"
+      android:id="@+id/code_info"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TC side app."
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:textAllCaps="true"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
